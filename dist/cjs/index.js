@@ -50,6 +50,6 @@ function FlocklerEmbed(_a) {
         };
     }, [handleFlocklerIframeResizeEvent]);
     var styling = __assign({ display: 'block', border: 'none', width: '100%' }, style);
-    return (react_1.default.createElement("iframe", __assign({ src: "https://plugins.flockler.com/embed/iframe/" + siteUuid + "/" + embedUuid, id: "flockler-embed-iframe-" + embedUuid, style: styling }, rest)));
+    return (react_1.default.createElement("iframe", __assign({ src: "https://plugins.flockler.com/embed/iframe/" + siteUuid + "/" + embedUuid, id: "flockler-embed-iframe-" + embedUuid, style: styling, allowFullScreen: true }, rest)));
 }
 exports.default = FlocklerEmbed;
