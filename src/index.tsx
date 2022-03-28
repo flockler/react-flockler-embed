@@ -50,6 +50,7 @@ export default function FlocklerEmbed({
       src={`https://plugins.flockler.com/embed/iframe/${siteUuid}/${embedUuid}`}
       id={`flockler-embed-iframe-${embedUuid}`}
       style={styling}
+      allowFullScreen
       {...rest}
     />
   );
