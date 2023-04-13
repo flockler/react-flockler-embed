@@ -20,7 +20,6 @@ The IDs needed by the `<FlocklerEmbed />` component can be parsed from the previ
 - `embedUuid` => `16ea79d892f0a038af66109643d7479f`
 
 ```jsx
-import React from 'react';
 import FlocklerEmbed from '@flockler/react-flockler-embed';
 
 const MySocialWall = () => (
