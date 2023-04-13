@@ -1,6 +1,6 @@
 {
   "name": "@flockler/react-flockler-embed",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "React component for rendering a Flockler Embed",
   "files": [
     "dist"
